@@ -1,0 +1,4 @@
+name,maHP,soTC
+Toan roi rac,CT101H,3
+Vi tich phan,CT111H,4
+Dai so tuyen tinh,CT131H,3
