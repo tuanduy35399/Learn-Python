@@ -50,7 +50,8 @@
 # 2	    B1800169	Le Tuong Dung
 # 3	    B1805707	Vuong Tam Nhu
 
-print("{:<5} {:<10} {:<20}".format("STT", "Ma SVien", "Ho va ten"))
-print("{:<5} {:<10} {:<20}".format("1", "B1606869", "Thai Bao"))
-print("{:<5} {:<10} {:<20}".format("2", "B1800169", "Le Tuong Dung"))
-print("{:<5} {:<10} {:<20}".format("2", "B1805707", "Vuong Tam Nhu"))
+# print("{:<5} {:<10} {:<20}".format("STT", "Ma SVien", "Ho va ten"))
+# print("{:<5} {:<10} {:<20}".format("1", "B1606869", "Thai Bao"))
+# print("{:<5} {:<10} {:<20}".format("2", "B1800169", "Le Tuong Dung"))
+# print("{:<5} {:<10} {:<20}".format("2", "B1805707", "Vuong Tam Nhu"))
+
