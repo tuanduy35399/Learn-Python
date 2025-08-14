@@ -23,6 +23,7 @@
 # append(x): them x vao cuoi danh sach
 # a.append(1)
 # print(a)
+#extend(list): noi 2 list lai voi nhau, khong can dung loop+ append
 #insert(i,x): chen x tai vi tri i
 # a.insert(0,3)
 # print(a)
@@ -34,6 +35,8 @@
 # not <list>: kiem tra co rong khong, 
 # True neu rong, False neu khong rong
 # print(not a)
+#b=a.copy(): copy list a vao b
+#khi b thay doi thi a khong bi anh huong
 
 #Sử dụng list như stack
 
