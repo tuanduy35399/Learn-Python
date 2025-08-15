@@ -60,38 +60,50 @@
 
 
 #sap xep bang merge sort
-def merge(A, left ,mid, right):
-    L=A[left:mid+1]
-    R=A[mid+1: right+1]
-    i=j=0
-    k=left
-    #gop 2 mang lai
-    while i<len(L) and j<len(R):
-        if L[i]<=R[j]:
-            A[k]=L[i]
-            i+=1
-        else:
-            A[k]=R[j]
-            j+=1
-        k+=1
-    #them cac phan con lai
-    while i<len(L):
-        A[k]=L[i]
-        i+=1
-        k+=1
-    while j<len(R):
-        A[k]=R[j]
-        j+=1
-        k+=1  
+# def merge(A, left ,mid, right):
+#     L=A[left:mid+1]
+#     R=A[mid+1: right+1]
+#     i=j=0
+#     k=left
+#     #gop 2 mang lai
+#     while i<len(L) and j<len(R):
+#         if L[i]<=R[j]:
+#             A[k]=L[i]
+#             i+=1
+#         else:
+#             A[k]=R[j]
+#             j+=1
+#         k+=1
+#     #them cac phan con lai
+#     while i<len(L):
+#         A[k]=L[i]
+#         i+=1
+#         k+=1
+#     while j<len(R):
+#         A[k]=R[j]
+#         j+=1
+#         k+=1  
 
-def mergeSort(A,L,R):
-    if L<R:
-        M=L+(R-L)//2
-        mergeSort(A,L,M)
-        mergeSort(A,M+1, R)  
-        merge(A,L,M,R)  
+# def mergeSort(A,L,R):
+#     if L<R:
+#         M=L+(R-L)//2
+#         mergeSort(A,L,M)
+#         mergeSort(A,M+1, R)  
+#         merge(A,L,M,R)  
 
-A=[2,7,1,3,67,8,2]
-print(A)
-mergeSort(A,0,len(A)-1)
-print(A)
+# A=[2,7,1,3,67,8,2]
+# print(A)
+# mergeSort(A,0,len(A)-1)
+# print(A)
+
+# arr=list(map(int,input().split())) #nhập list toàn số thay vì str
+# print(arr)
+# arr.append(4)
+# arr.insert(1,99)
+# arr.sort()
+# print(arr)
+# print(arr.__len__())
+# na=[9,9,1,3]
+# print(arr.__add__(na))
+
+
